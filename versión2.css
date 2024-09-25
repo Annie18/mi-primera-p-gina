@@ -1,0 +1,94 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+/* .logo {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+} */
+
+.logorenova {
+    width: 460px;
+    height: 130px;
+}
+
+nav {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 8px 16px;
+    color: black;
+}
+
+nav a:hover {
+    background-color: #ddd;
+}
+
+.main-section {
+    position: relative;
+    text-align: left;
+}
+
+.main-section .overlay {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+}
+
+.main-section h2 {
+    color: #4CAF50;
+}
+
+.main-section p {
+    line-height: 1.6;
+}
+
+.división {
+    display: flex;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #336699;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.cta-button:hover {
+    background-color: #335577;
+}
+
+.equipo {
+  width: 750px;
+  height: 750px;
+}
+
+.gallery-section {
+    /* Estilos para la sección de la galería de fotos */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
